@@ -1,14 +1,14 @@
 # WhisperX Transcription + Diarization Audio Processing for Researchers
 This repository contains a Jupyter notebook for qualitative researchers to transcribe, diarize speakers, and convert audio or video files into various text formats (csv, txt, json, & vtt). The notebook uses advanced transcription and diarization capabilities provided by Whisper and WhisperX, as well as [pyannote speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1) and [segmentation-3.0](https://huggingface.co/pyannote/segmentation-3.0) libraries from Hugging Face.  
- ###[A free Hugging Face token is required](https://huggingface.co/docs/hub/en/security-tokens)
+*[A free Hugging Face token is required specifically for the diarization aspects](https://huggingface.co/docs/hub/en/security-tokens)
  
  The code is derived and built from the following [Medium article](https://towardsdatascience.com/unlock-the-power-of-audio-data-advanced-transcription-and-diarization-with-whisper-whisperx-and-ed9424307281)
 
-To be clear, I am a very novice programmer, and much of this work has been done in collaboration with ChatGPT. I am a PhD student with a focus on equity in STEM education as well as educational technology. I have tried to redesign the code so that it is much more useful for generating transcriptions for researchers like me and others I work with. 
+To be clear, I am a VERY novice programmer, and much of this work has been done in collaboration with ChatGPT. I am a PhD student with a focus on equity in STEM education as well as educational technology, and I am always in need of better ways of transcribing the tons of audio/video data that we collect. I have been doing a lot of work using natural language processing tools for text analytics and pattern detection (Laura K. Nelson, Computational Grounded Theory) recently so I have fallen down the rabbit hole of producing Jupyter notebooks and decided to make one for WhisperX transcription. I am also a gamer so I happen to have an Nvidia 3090 GPU on my home pc as well as a 4090 gpu in our research lab. The tools I used before were difficult to work with and didn't output in the way that I wanted. So one of my side projects has been trying to redesign the code base WhisperX code found at the site above, so that it is much more useful for generating transcriptions for researchers like myself and the others I work with. I'm certain there are still improvements to be made, but it has worked for us thus far.
 
 This means: 
 1. I wanted the ability to do batch transcriptions of audio files found in multiple subdirectories. 
-2. I wanted to take advantage of WhisperX word level time stamping. 
+2. I wanted to take advantage of WhisperX's word level time stamping. 
 3. Utilize pyannote's speaker diarization capabilities. 
 4. Generate csv, txt, json, and vtt files for each audio file transcribe. 
 5. Ability to anonymize specific names and places during transcription. 
