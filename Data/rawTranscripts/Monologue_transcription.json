@@ -1,0 +1,1083 @@
+[
+    {
+        "sentence_number": 1,
+        "start": 1.733,
+        "end": 2.453,
+        "text": "the job.",
+        "words": [
+            {
+                "word": "the",
+                "start": 1.733,
+                "end": 1.853,
+                "score": 0.912,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "job.",
+                "start": 1.933,
+                "end": 2.453,
+                "score": 0.751,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    },
+    {
+        "sentence_number": 2,
+        "start": 6.116,
+        "end": 10.678,
+        "text": "Glad to see things are going well and business is starting to pick up.",
+        "words": [
+            {
+                "word": "Glad",
+                "start": 6.116,
+                "end": 6.496,
+                "score": 0.949,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "to",
+                "start": 6.556,
+                "end": 6.656,
+                "score": 0.644,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "see",
+                "start": 6.716,
+                "end": 6.936,
+                "score": 0.795,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "things",
+                "start": 7.016,
+                "end": 7.336,
+                "score": 0.747,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "are",
+                "start": 7.416,
+                "end": 7.516,
+                "score": 0.807,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "going",
+                "start": 7.556,
+                "end": 7.857,
+                "score": 0.803,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "well",
+                "start": 7.917,
+                "end": 8.257,
+                "score": 0.904,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "and",
+                "start": 9.197,
+                "end": 9.317,
+                "score": 0.786,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "business",
+                "start": 9.377,
+                "end": 9.738,
+                "score": 0.947,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "is",
+                "start": 9.798,
+                "end": 9.858,
+                "score": 0.068,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "starting",
+                "start": 9.878,
+                "end": 10.178,
+                "score": 0.735,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "to",
+                "start": 10.198,
+                "end": 10.238,
+                "score": 0.738,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "pick",
+                "start": 10.278,
+                "end": 10.478,
+                "score": 0.952,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "up.",
+                "start": 10.578,
+                "end": 10.678,
+                "score": 0.678,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    },
+    {
+        "sentence_number": 3,
+        "start": 12.339,
+        "end": 17.542,
+        "text": "Andrea told me about your outstanding numbers on Tuesday.",
+        "words": [
+            {
+                "word": "Andrea",
+                "start": 12.339,
+                "end": 12.779,
+                "score": 0.834,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "told",
+                "start": 12.799,
+                "end": 12.979,
+                "score": 0.952,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "me",
+                "start": 12.999,
+                "end": 13.079,
+                "score": 0.94,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "about",
+                "start": 13.12,
+                "end": 13.36,
+                "score": 0.983,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "your",
+                "start": 13.42,
+                "end": 13.64,
+                "score": 0.895,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "outstanding",
+                "start": 14.54,
+                "end": 15.381,
+                "score": 0.833,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "numbers",
+                "start": 15.681,
+                "end": 16.161,
+                "score": 0.846,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "on",
+                "start": 16.762,
+                "end": 16.842,
+                "score": 0.962,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "Tuesday.",
+                "start": 16.942,
+                "end": 17.542,
+                "score": 0.824,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    },
+    {
+        "sentence_number": 4,
+        "start": 18.823,
+        "end": 20.023,
+        "text": "Keep up the good work.",
+        "words": [
+            {
+                "word": "Keep",
+                "start": 18.823,
+                "end": 19.083,
+                "score": 0.907,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "up",
+                "start": 19.183,
+                "end": 19.303,
+                "score": 0.862,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "the",
+                "start": 19.363,
+                "end": 19.443,
+                "score": 0.738,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "good",
+                "start": 19.503,
+                "end": 19.683,
+                "score": 0.881,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "work.",
+                "start": 19.763,
+                "end": 20.023,
+                "score": 0.876,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    },
+    {
+        "sentence_number": 5,
+        "start": 22.885,
+        "end": 24.066,
+        "text": "Now to other business.",
+        "words": [
+            {
+                "word": "Now",
+                "start": 22.885,
+                "end": 23.105,
+                "score": 0.91,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "to",
+                "start": 23.185,
+                "end": 23.305,
+                "score": 0.855,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "other",
+                "start": 23.405,
+                "end": 23.585,
+                "score": 0.987,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "business.",
+                "start": 23.625,
+                "end": 24.066,
+                "score": 0.86,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    },
+    {
+        "sentence_number": 6,
+        "start": 25.947,
+        "end": 29.769,
+        "text": "I am gonna suggest a payment schedule",
+        "words": [
+            {
+                "word": "I",
+                "start": 25.947,
+                "end": 26.067,
+                "score": 0.737,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "am",
+                "start": 26.727,
+                "end": 26.827,
+                "score": 0.966,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "gonna",
+                "start": 26.867,
+                "end": 27.187,
+                "score": 0.833,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "suggest",
+                "start": 27.568,
+                "end": 28.168,
+                "score": 0.955,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "a",
+                "start": 28.448,
+                "end": 28.548,
+                "score": 0.766,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "payment",
+                "start": 28.708,
+                "end": 29.289,
+                "score": 0.94,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "schedule",
+                "start": 29.309,
+                "end": 29.769,
+                "score": 0.49,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    },
+    {
+        "sentence_number": 7,
+        "start": 32.639,
+        "end": 35.561,
+        "text": "for the outstanding monies that is due.",
+        "words": [
+            {
+                "word": "for",
+                "start": 32.639,
+                "end": 32.899,
+                "score": 0.795,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "the",
+                "start": 32.979,
+                "end": 33.039,
+                "score": 0.7,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "outstanding",
+                "start": 33.179,
+                "end": 34.0,
+                "score": 0.908,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "monies",
+                "start": 34.4,
+                "end": 34.761,
+                "score": 0.592,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "that",
+                "start": 34.981,
+                "end": 35.141,
+                "score": 0.923,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "is",
+                "start": 35.201,
+                "end": 35.261,
+                "score": 0.754,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "due.",
+                "start": 35.341,
+                "end": 35.561,
+                "score": 0.95,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    },
+    {
+        "sentence_number": 8,
+        "start": 37.503,
+        "end": 48.731,
+        "text": "One, can you pay the balance of the license agreement as soon as possible?",
+        "words": [
+            {
+                "word": "One,",
+                "start": 37.503,
+                "end": 37.703,
+                "score": 0.42,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "can",
+                "start": 39.064,
+                "end": 39.324,
+                "score": 0.798,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "you",
+                "start": 39.384,
+                "end": 39.584,
+                "score": 0.909,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "pay",
+                "start": 39.684,
+                "end": 40.185,
+                "score": 0.811,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "the",
+                "start": 41.386,
+                "end": 41.506,
+                "score": 0.841,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "balance",
+                "start": 41.586,
+                "end": 42.106,
+                "score": 0.854,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "of",
+                "start": 42.407,
+                "end": 42.527,
+                "score": 0.802,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "the",
+                "start": 42.607,
+                "end": 42.667,
+                "score": 0.979,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "license",
+                "start": 42.787,
+                "end": 43.467,
+                "score": 0.948,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "agreement",
+                "start": 43.627,
+                "end": 44.168,
+                "score": 0.799,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "as",
+                "start": 47.53,
+                "end": 47.611,
+                "score": 0.836,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "soon",
+                "start": 47.671,
+                "end": 47.991,
+                "score": 0.872,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "as",
+                "start": 48.111,
+                "end": 48.211,
+                "score": 0.826,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "possible?",
+                "start": 48.291,
+                "end": 48.731,
+                "score": 0.874,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    },
+    {
+        "sentence_number": 9,
+        "start": 50.233,
+        "end": 59.54,
+        "text": "Two, I suggest we set up or you suggest which you can pay on the back royalties",
+        "words": [
+            {
+                "word": "Two,",
+                "start": 50.233,
+                "end": 50.533,
+                "score": 0.892,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "I",
+                "start": 51.974,
+                "end": 52.054,
+                "score": 0.751,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "suggest",
+                "start": 52.094,
+                "end": 52.614,
+                "score": 0.86,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "we",
+                "start": 52.734,
+                "end": 53.155,
+                "score": 0.81,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "set",
+                "start": 53.355,
+                "end": 53.575,
+                "score": 0.994,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "up",
+                "start": 53.635,
+                "end": 53.715,
+                "score": 0.988,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "or",
+                "start": 55.577,
+                "end": 55.657,
+                "score": 0.834,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "you",
+                "start": 55.697,
+                "end": 55.857,
+                "score": 0.922,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "suggest",
+                "start": 55.897,
+                "end": 56.397,
+                "score": 0.889,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "which",
+                "start": 56.858,
+                "end": 56.998,
+                "score": 0.914,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "you",
+                "start": 57.038,
+                "end": 57.118,
+                "score": 0.879,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "can",
+                "start": 57.158,
+                "end": 57.278,
+                "score": 0.996,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "pay",
+                "start": 57.338,
+                "end": 57.598,
+                "score": 0.982,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "on",
+                "start": 57.778,
+                "end": 57.878,
+                "score": 0.871,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "the",
+                "start": 57.918,
+                "end": 57.999,
+                "score": 0.831,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "back",
+                "start": 58.139,
+                "end": 58.479,
+                "score": 0.932,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "royalties",
+                "start": 58.779,
+                "end": 59.54,
+                "score": 0.717,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    },
+    {
+        "sentence_number": 10,
+        "start": 62.739,
+        "end": 88.372,
+        "text": "what do you feel comfortable with paying every two weeks every month I would like to keep I would like to catch up",
+        "words": [
+            {
+                "word": "what",
+                "start": 62.739,
+                "end": 62.859,
+                "score": 0.382,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "do",
+                "start": 62.879,
+                "end": 62.919,
+                "score": 0.18,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "you",
+                "start": 62.959,
+                "end": 63.079,
+                "score": 0.991,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "feel",
+                "start": 63.139,
+                "end": 63.339,
+                "score": 0.864,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "comfortable",
+                "start": 63.399,
+                "end": 63.94,
+                "score": 0.811,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "with",
+                "start": 64.0,
+                "end": 64.28,
+                "score": 0.949,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "paying",
+                "start": 65.821,
+                "end": 66.461,
+                "score": 0.64,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "every",
+                "start": 73.685,
+                "end": 73.905,
+                "score": 0.794,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "two",
+                "start": 73.965,
+                "end": 74.125,
+                "score": 0.927,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "weeks",
+                "start": 74.185,
+                "end": 74.525,
+                "score": 0.7,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "every",
+                "start": 80.988,
+                "end": 81.228,
+                "score": 0.782,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "month",
+                "start": 81.328,
+                "end": 81.669,
+                "score": 0.781,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "I",
+                "start": 84.41,
+                "end": 84.45,
+                "score": 0.999,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "would",
+                "start": 84.49,
+                "end": 84.67,
+                "score": 0.838,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "like",
+                "start": 84.71,
+                "end": 84.91,
+                "score": 0.81,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "to",
+                "start": 84.95,
+                "end": 85.05,
+                "score": 0.768,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "keep",
+                "start": 85.11,
+                "end": 85.35,
+                "score": 0.947,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "I",
+                "start": 87.071,
+                "end": 87.111,
+                "score": 1.0,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "would",
+                "start": 87.151,
+                "end": 87.351,
+                "score": 0.715,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "like",
+                "start": 87.411,
+                "end": 87.672,
+                "score": 0.706,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "to",
+                "start": 87.792,
+                "end": 87.912,
+                "score": 0.833,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "catch",
+                "start": 88.012,
+                "end": 88.312,
+                "score": 0.845,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "up",
+                "start": 88.332,
+                "end": 88.372,
+                "score": 0.0,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    },
+    {
+        "sentence_number": 11,
+        "start": 90.942,
+        "end": 116.356,
+        "text": "and maintain current royalties so if we can start current royalties and maintain them every two weeks as all stores are required to do I would appreciate it let me know if this works for you",
+        "words": [
+            {
+                "word": "and",
+                "start": 90.942,
+                "end": 91.022,
+                "score": 0.878,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "maintain",
+                "start": 91.082,
+                "end": 91.682,
+                "score": 0.756,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "current",
+                "start": 91.783,
+                "end": 92.143,
+                "score": 0.924,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "royalties",
+                "start": 92.183,
+                "end": 92.863,
+                "score": 0.855,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "so",
+                "start": 95.104,
+                "end": 95.364,
+                "score": 0.746,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "if",
+                "start": 95.384,
+                "end": 95.485,
+                "score": 0.268,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "we",
+                "start": 95.565,
+                "end": 95.745,
+                "score": 0.783,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "can",
+                "start": 95.785,
+                "end": 95.985,
+                "score": 0.928,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "start",
+                "start": 96.125,
+                "end": 96.645,
+                "score": 0.824,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "current",
+                "start": 96.885,
+                "end": 97.225,
+                "score": 0.878,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "royalties",
+                "start": 97.245,
+                "end": 97.986,
+                "score": 0.764,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "and",
+                "start": 104.069,
+                "end": 104.189,
+                "score": 0.865,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "maintain",
+                "start": 104.249,
+                "end": 105.05,
+                "score": 0.755,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "them",
+                "start": 105.15,
+                "end": 105.41,
+                "score": 0.915,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "every",
+                "start": 107.191,
+                "end": 107.371,
+                "score": 0.829,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "two",
+                "start": 107.411,
+                "end": 107.571,
+                "score": 0.824,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "weeks",
+                "start": 107.631,
+                "end": 107.931,
+                "score": 0.819,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "as",
+                "start": 108.492,
+                "end": 108.632,
+                "score": 0.572,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "all",
+                "start": 109.072,
+                "end": 109.232,
+                "score": 0.978,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "stores",
+                "start": 109.292,
+                "end": 109.752,
+                "score": 0.766,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "are",
+                "start": 110.673,
+                "end": 110.773,
+                "score": 0.625,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "required",
+                "start": 110.793,
+                "end": 111.273,
+                "score": 0.831,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "to",
+                "start": 111.313,
+                "end": 111.393,
+                "score": 0.986,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "do",
+                "start": 111.433,
+                "end": 111.673,
+                "score": 0.802,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "I",
+                "start": 113.034,
+                "end": 113.094,
+                "score": 0.916,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "would",
+                "start": 113.134,
+                "end": 113.294,
+                "score": 0.824,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "appreciate",
+                "start": 113.314,
+                "end": 113.895,
+                "score": 0.858,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "it",
+                "start": 113.935,
+                "end": 113.975,
+                "score": 0.984,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "let",
+                "start": 115.055,
+                "end": 115.195,
+                "score": 0.991,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "me",
+                "start": 115.235,
+                "end": 115.315,
+                "score": 0.996,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "know",
+                "start": 115.355,
+                "end": 115.495,
+                "score": 0.546,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "if",
+                "start": 115.515,
+                "end": 115.555,
+                "score": 0.012,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "this",
+                "start": 115.595,
+                "end": 115.736,
+                "score": 0.965,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "works",
+                "start": 115.776,
+                "end": 116.016,
+                "score": 0.681,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "for",
+                "start": 116.056,
+                "end": 116.196,
+                "score": 0.893,
+                "speaker": "SPEAKER_00"
+            },
+            {
+                "word": "you",
+                "start": 116.256,
+                "end": 116.356,
+                "score": 0.997,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    },
+    {
+        "sentence_number": 12,
+        "start": 119.974,
+        "end": 120.278,
+        "text": "Thanks.",
+        "words": [
+            {
+                "word": "Thanks.",
+                "start": 119.974,
+                "end": 120.278,
+                "score": 0.766,
+                "speaker": "SPEAKER_00"
+            }
+        ],
+        "speaker": "SPEAKER_00"
+    }
+]
