@@ -33,7 +33,7 @@ This means:
 - **Install Required Libraries**:
   Make sure you have all the required libraries installed. You can install them using pip:
   ```sh
-  pip install os pandas torch whisperx gc datetime json webvtt srt
+  pip install os pandas torch whisperx gc datetime json webvtt srt python-dotenv
  
 ### 2. Configure Paths and Settings
 
