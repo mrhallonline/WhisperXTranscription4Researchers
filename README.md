@@ -5,9 +5,6 @@ This repository contains a Jupyter notebook for qualitative researchers to trans
  
  The code is derived and built from the following [Medium article](https://towardsdatascience.com/unlock-the-power-of-audio-data-advanced-transcription-and-diarization-with-whisper-whisperx-and-ed9424307281)
 
-To be clear, I am a VERY novice programmer, and much of this work has been done in collaboration with ChatGPT. I am a PhD student with a focus on equity in STEM education as well as educational technology, and I am always in need of better ways of transcribing the tons of audio/video data that we collect. I have been doing a lot of work using natural language processing tools for text analytics and pattern detection (Laura K. Nelson, Computational Grounded Theory) recently so I have fallen down the rabbit hole of producing Jupyter notebooks and decided to make one for WhisperX transcription. I am also a gamer so I happen to have an Nvidia 3090 GPU on my home pc as well as a 4090 gpu in our research lab. The tools I used before were difficult to work with and didn't output in the way that I wanted. So one of my side projects has been trying to redesign the code base WhisperX code found at the site above, so that it is much more useful for generating transcriptions for researchers like myself and the others I work with. I'm certain there are still improvements to be made, but it has worked for us thus far.
-
-This means: 
 1. I wanted the ability to do batch transcriptions of audio files found in multiple subdirectories. 
 2. I wanted to take advantage of WhisperX's word level time stamping. 
 3. Utilize pyannote's speaker diarization capabilities. 
