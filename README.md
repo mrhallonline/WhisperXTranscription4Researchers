@@ -29,21 +29,38 @@ This means:
 ## How to Use This Code
 
 ### 1. Set Up Your Environment
+WhisperX documentation found here: https://github.com/m-bain/whisperX
+================================================
+1. Install Git
+2. Install FFMPEG and add to PATH
+3. Install Anaconda 
 
-- **Install Required Libraries**:
-  Make sure you have all the required libraries installed. You can install them using pip:
-  ```sh
-  pip install os pandas torch whisperx gc datetime json webvtt srt python-dotenv
- 
-### 2. Configure Paths and Settings
+================================================   
+4. Create Conda environment
+conda create -n whisperxtranscription-env python=3.10
+conda activate whisperxtranscription-env
 
-Paths: Replace the placeholder paths with your actual directories:
-```sh
-base_dir = 'Data/RawAudioFiles_Inputs'       # Path to your main folder containing subfolders with audio files
-output_base_dir = 'Data/Trancripts_Outputs'  # Path to the folder where you want to save the transcripts
-```
+5. Install PyTorch https://pytorch.org/get-started/locally/ 
+pip install numpy==1.26.3 torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
 
-## 3. Audio File Types
+6. Install WhisperX repository and additional packages
+pip install whisperx speechbrain jupyter ipywidgets charset-normalizer pandas nltk plotly matplotlib webvtt-py pypi-json srt python-dotenv
+
+7. Create .env file at the same level as this notebook file with the following line
+HF_TOKEN="REPLACEWITHHUGGINGFACETOKENHERE"
+
+=================================================
+8. For GPU usage :
+Install Visual Studio Community https://visualstudio.microsoft.com/downloads/
+Install NVIDIA CUDA Toolkit 12.1 https://developer.nvidia.com/cuda-12-1-0-download-archive 
+
+### Check PyTorch and CUDA installation
+import torch
+print(torch.__version__)
+print(torch.cuda.is_available())
+print(torch.cuda.get_device_name(0))
+
+## Audio File Types
 
 Update the file types if your audio files are in different formats:
 ```sh
@@ -51,14 +68,14 @@ file_type1 = '.wav'
 file_type2 = '.mp3'
 file_type3 = '.ogg'
 ```
-## 4. Prepare Pseudonyms CSV
+## Prepare Pseudonyms CSV
 Pseudonyms CSV: Ensure you have a CSV file named pseudonyms.csv in the data directory. This file should contain columns name and pseudonym for anonymizing the transcripts.
 
-## 5. Execute the set-up code
+## Execute the set-up code
 The main function finds all audio files in the specified directory, processes them, and saves the transcripts. To run the code, simply execute the script.
 
-## 6. Execute the transcription and diarization functions
-## 7. Check the Outputs
+## Execute the transcription and diarization functions
+## Check the Outputs
 Output Files:
 The transcripts will be saved in the specified output directory in multiple formats: CSV, TXT, JSON, and VTT
 
