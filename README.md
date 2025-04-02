@@ -26,31 +26,34 @@ This means:
 5. **Audio Processing Functions**: Includes functions to find audio files, get file modification dates, anonymize text, convert segments to different formats, and process each audio file.
 6. **Main Function Execution**: Finds all audio files in the specified directory, processes them, and saves the transcripts in multiple formats (CSV, TXT, JSON, VTT).
 
-## How to Use This Code
+## How to Use This Repo
 
-### 1. Set Up Your Environment
+
 WhisperX documentation found here: https://github.com/m-bain/whisperX
+
+### Install General Software
 ================================================
 1. Install Git
 2. Install FFMPEG and add to PATH
 3. Install Anaconda 
 
+### Set Up Conda Environment
 ================================================   
-4. Create Conda environment
+1. Create Conda environment
 conda create -n whisperxtranscription-env python=3.10
 conda activate whisperxtranscription-env
 
-5. Install PyTorch https://pytorch.org/get-started/locally/ 
+2. Install PyTorch https://pytorch.org/get-started/locally/ 
 pip install numpy==1.26.3 torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
 
-6. Install WhisperX repository and additional packages
+3. Install WhisperX repository and additional packages
 pip install whisperx speechbrain jupyter ipywidgets charset-normalizer pandas nltk plotly matplotlib webvtt-py pypi-json srt python-dotenv
 
-7. Create .env file at the same level as this notebook file with the following line
+4. Create .env file at the same level as this notebook file with the following line
 HF_TOKEN="REPLACEWITHHUGGINGFACETOKENHERE"
 
+### To Set Up NVIDIA GPU
 =================================================
-8. For GPU usage :
 Install Visual Studio Community https://visualstudio.microsoft.com/downloads/
 Install NVIDIA CUDA Toolkit 12.1 https://developer.nvidia.com/cuda-12-1-0-download-archive 
 
@@ -60,9 +63,10 @@ print(torch.__version__)
 print(torch.cuda.is_available())
 print(torch.cuda.get_device_name(0))
 
+## Setup and Use Jupyter Notebook
+=================================================
 ## Audio File Types
-
-Update the file types if your audio files are in different formats:
+Update the file type(s) of your audio files:
 ```sh
 file_type1 = '.wav'
 file_type2 = '.mp3'
