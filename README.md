@@ -28,7 +28,6 @@ This means:
 
 ## How to Use This Repo
 
-
 WhisperX documentation found here: https://github.com/m-bain/whisperX
 
 ### Install General Software
@@ -40,46 +39,54 @@ WhisperX documentation found here: https://github.com/m-bain/whisperX
 ### Set Up Conda Environment
 ================================================   
 1. Create Conda environment
+```sh
 conda create -n whisperxtranscription-env python=3.10
 conda activate whisperxtranscription-env
-
-2. Install PyTorch https://pytorch.org/get-started/locally/ 
+```
+1. Install PyTorch https://pytorch.org/get-started/locally/ 
+```sh
 pip install numpy==1.26.3 torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
+```
 
-3. Install WhisperX repository and additional packages
+1. Install WhisperX repository and additional packages
+```sh
 pip install whisperx speechbrain jupyter ipywidgets charset-normalizer pandas nltk plotly matplotlib webvtt-py pypi-json srt python-dotenv
+```
 
-4. Create .env file at the same level as this notebook file with the following line
+1. Create .env file at the same level as this notebook file with the following line
+```sh
 HF_TOKEN="REPLACEWITHHUGGINGFACETOKENHERE"
-
+```
 ### To Set Up NVIDIA GPU
 =================================================
-Install Visual Studio Community https://visualstudio.microsoft.com/downloads/
-Install NVIDIA CUDA Toolkit 12.1 https://developer.nvidia.com/cuda-12-1-0-download-archive 
+1. Install Visual Studio Community https://visualstudio.microsoft.com/downloads/
+2. Install NVIDIA CUDA Toolkit 12.1 https://developer.nvidia.com/cuda-12-1-0-download-archive 
 
 ### Check PyTorch and CUDA installation
+```sh
 import torch
 print(torch.__version__)
 print(torch.cuda.is_available())
 print(torch.cuda.get_device_name(0))
+```
 
 ## Setup and Use Jupyter Notebook
 =================================================
-## Audio File Types
+### Audio File Types
 Update the file type(s) of your audio files:
 ```sh
 file_type1 = '.wav'
 file_type2 = '.mp3'
 file_type3 = '.ogg'
 ```
-## Prepare Pseudonyms CSV
+### Prepare Pseudonyms CSV
 Pseudonyms CSV: Ensure you have a CSV file named pseudonyms.csv in the data directory. This file should contain columns name and pseudonym for anonymizing the transcripts.
 
-## Execute the set-up code
+### Execute the set-up code
 The main function finds all audio files in the specified directory, processes them, and saves the transcripts. To run the code, simply execute the script.
 
-## Execute the transcription and diarization functions
-## Check the Outputs
+### Execute the transcription and diarization functions
+### Check the Outputs
 Output Files:
 The transcripts will be saved in the specified output directory in multiple formats: CSV, TXT, JSON, and VTT
 
