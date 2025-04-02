@@ -67,23 +67,39 @@ print(torch.cuda.is_available())
 print(torch.cuda.get_device_name(0))
 ```
 
-### D. Setup and Use Jupyter Notebook
+### D. Setup and Run Jupyter Notebook
 =================================================
-#### Audio File Types
+#### Prepare Pseudonyms CSV
+Pseudonyms CSV: Ensure you have a CSV file named pseudonyms.csv in the data directory. This file should contain columns name and pseudonym for anonymizing the transcripts. This isn't a requirement, you will be asked through a popup if you are using one.
+
+#### 1.0 Execute the set-up code
+The main function finds all audio files of the types specified in the folder choice that will occur when you run the subsequent code snippet, processes them, and saves the transcripts. To run the code, simply execute the script.
+
+##### Audio File Types
 Update the file type(s) of your audio files:
 ```sh
 file_type1 = '.wav'
 file_type2 = '.mp3'
 file_type3 = '.ogg'
 ```
-### E. Running the code
-#### Prepare Pseudonyms CSV
-Pseudonyms CSV: Ensure you have a CSV file named pseudonyms.csv in the data directory. This file should contain columns name and pseudonym for anonymizing the transcripts. This isn't a requirement, you will be asked through a popup if you are using one.
 
-#### Execute the set-up code
-The main function finds all audio files of the types specified in the folder choice that will occur when you run the subsequent code snippet, processes them, and saves the transcripts. To run the code, simply execute the script.
+#### 2.0 Execute the Run code 
 
-#### Execute the transcription and diarization functions
+Just push run here. You shouldn't need to change anything here unless you want to output less or more file types. These are mostly functions which are then called at the end of the cell.
+
+1. You should get a popup asking to choose the folder where the files are found (It will also search subfolders).
+![alt text](image-1.png)
+2. You should then get a popup asking for where the transcription files should be placed (It will replicate the folder structure in which they were found)
+![alt text](image-2.png)
+3. You will also see a popup asking if you want to anonymize with a pseudonyms.csv file, and if so where it is located.
+![alt text](image-3.png)
+4. You should then see an output similar to the following (just ignore the warnings):
+```sh
+Model was trained with pyannote.audio 0.0.1, yours is 3.1.1. Bad things might happen unless you revert pyannote.audio to 0.x.
+Model was trained with torch 1.10.0+cu102, yours is 2.3.0+cu121. Bad things might happen unless you revert torch to 1.x.
+```
+5. When complete you will see where each were written and the folders where they were written to.
+
 ### Check the Outputs
 Output Files:
 The transcripts will be saved in the specified output directory in multiple formats: CSV, TXT, JSON, and VTT
