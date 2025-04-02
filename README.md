@@ -50,7 +50,7 @@ pip install numpy==1.26.3 torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --i
 pip install whisperx speechbrain jupyter ipywidgets charset-normalizer pandas nltk plotly matplotlib webvtt-py pypi-json srt python-dotenv
 ```
 
-4. Create .env file at the same level as this notebook file with the following line
+4. There is an .env file at the same level as this notebook file paste your Hugging Face Token between the " " and save the file. 
 ```sh
 HF_TOKEN="REPLACEWITHHUGGINGFACETOKENHERE"
 ```
@@ -76,11 +76,12 @@ file_type1 = '.wav'
 file_type2 = '.mp3'
 file_type3 = '.ogg'
 ```
+### E. Running the code
 #### Prepare Pseudonyms CSV
-Pseudonyms CSV: Ensure you have a CSV file named pseudonyms.csv in the data directory. This file should contain columns name and pseudonym for anonymizing the transcripts.
+Pseudonyms CSV: Ensure you have a CSV file named pseudonyms.csv in the data directory. This file should contain columns name and pseudonym for anonymizing the transcripts. This isn't a requirement, you will be asked through a popup if you are using one.
 
 #### Execute the set-up code
-The main function finds all audio files in the specified directory, processes them, and saves the transcripts. To run the code, simply execute the script.
+The main function finds all audio files of the types specified in the folder choice that will occur when you run the subsequent code snippet, processes them, and saves the transcripts. To run the code, simply execute the script.
 
 #### Execute the transcription and diarization functions
 ### Check the Outputs
