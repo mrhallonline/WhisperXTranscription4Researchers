@@ -30,13 +30,13 @@ This means:
 
 WhisperX documentation found here: https://github.com/m-bain/whisperX
 
-### Install General Software
+### A. Install General Software
 ================================================
 1. Install Git
 2. Install FFMPEG and add to PATH
 3. Install Anaconda 
 
-### Set Up Conda Environment
+### B. Set Up Conda Environment
 ================================================   
 1. Create Conda environment
 ```sh
@@ -57,12 +57,12 @@ pip install whisperx speechbrain jupyter ipywidgets charset-normalizer pandas nl
 ```sh
 HF_TOKEN="REPLACEWITHHUGGINGFACETOKENHERE"
 ```
-### To Set Up NVIDIA GPU
+### C. To Set Up NVIDIA GPU
 =================================================
 1. Install Visual Studio Community https://visualstudio.microsoft.com/downloads/
 2. Install NVIDIA CUDA Toolkit 12.1 https://developer.nvidia.com/cuda-12-1-0-download-archive 
 
-### Check PyTorch and CUDA installation
+#### Check PyTorch and CUDA installation
 ```sh
 import torch
 print(torch.__version__)
@@ -70,22 +70,22 @@ print(torch.cuda.is_available())
 print(torch.cuda.get_device_name(0))
 ```
 
-## Setup and Use Jupyter Notebook
+### D. Setup and Use Jupyter Notebook
 =================================================
-### Audio File Types
+#### Audio File Types
 Update the file type(s) of your audio files:
 ```sh
 file_type1 = '.wav'
 file_type2 = '.mp3'
 file_type3 = '.ogg'
 ```
-### Prepare Pseudonyms CSV
+#### Prepare Pseudonyms CSV
 Pseudonyms CSV: Ensure you have a CSV file named pseudonyms.csv in the data directory. This file should contain columns name and pseudonym for anonymizing the transcripts.
 
-### Execute the set-up code
+#### Execute the set-up code
 The main function finds all audio files in the specified directory, processes them, and saves the transcripts. To run the code, simply execute the script.
 
-### Execute the transcription and diarization functions
+#### Execute the transcription and diarization functions
 ### Check the Outputs
 Output Files:
 The transcripts will be saved in the specified output directory in multiple formats: CSV, TXT, JSON, and VTT
