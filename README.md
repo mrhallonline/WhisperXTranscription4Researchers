@@ -49,8 +49,10 @@ pip install numpy==1.26.3 torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --i
 ```sh
 pip install whisperx speechbrain jupyter ipywidgets charset-normalizer pandas nltk plotly matplotlib webvtt-py pypi-json srt python-dotenv
 ```
+4. Make sure to choose this kernel in the Jupyter notebook
+https://code.visualstudio.com/docs/datascience/jupyter-kernel-management 
 
-4. There is an .env file at the same level as this notebook file paste your Hugging Face Token between the " " and save the file. 
+6. There is an .env file at the same level as this notebook file paste your Hugging Face Token between the " " and save the file. 
 ```sh
 HF_TOKEN="REPLACEWITHHUGGINGFACETOKENHERE"
 ```
