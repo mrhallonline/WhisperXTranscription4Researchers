@@ -1,7 +1,7 @@
 API Key
 .env
 data/
-
+config.ipynb_checkpoints
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
