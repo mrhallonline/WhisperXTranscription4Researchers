@@ -27,7 +27,7 @@ jupyter
 ipywidgets
 
 # Diarization dependencies (match Hugging Face versions mentioned)
-pyannote.audio==0.0.1
+pyannote.audio==3.1.1
 asteroid-filterbanks==0.4.0
 backports.cached-property
 einops==0.3.2
