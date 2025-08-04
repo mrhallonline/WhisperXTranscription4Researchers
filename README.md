@@ -47,7 +47,13 @@ pip install numpy==1.26.3 torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --i
 
 3. Install WhisperX repository and additional packages
 ```sh
-pip install whisperx==3.2.0 speechbrain jupyter ipywidgets charset-normalizer pandas nltk plotly matplotlib webvtt-py pypi-json srt python-dotenv tqdm
+pip install whisperx==3.2.0
+
+pip install speechbrain ipykernel ipywidgets charset-normalizer pandas nltk plotly matplotlib webvtt-py pypi-json srt python-dotenv tqdm
+
+pip install numpy==1.26.3 torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
+
+
 ```
 4. Make sure to choose this kernel in the Jupyter notebook
 https://code.visualstudio.com/docs/datascience/jupyter-kernel-management 
