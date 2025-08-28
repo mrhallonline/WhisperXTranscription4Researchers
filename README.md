@@ -40,6 +40,7 @@ WhisperX documentation found here: https://github.com/m-bain/whisperX
 conda create -n whisperxtranscription-env python=3.10
 conda activate whisperxtranscription-env
 ```
+
 2. Install PyTorch https://pytorch.org/get-started/locally/ 
 ```sh
 pip install numpy==1.26.3 torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
@@ -50,8 +51,6 @@ pip install numpy==1.26.3 torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --i
 pip install whisperx==3.2.0
 
 pip install speechbrain ipykernel ipywidgets charset-normalizer pandas nltk plotly matplotlib webvtt-py pypi-json srt python-dotenv tqdm
-
-pip install numpy==1.26.3 torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
 
 
 ```
